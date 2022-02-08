@@ -15,9 +15,13 @@ const gbPlusBtn = document.querySelector('#add-gb')
 
 // Code to update name display
 credit.textContent = `Created by ${yourName}`
+document.querySelector('#credit').textContent = "Created by Rasaki Solebo"
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
 gbPlusBtn.addEventListener('click', function() {
+    gb = gb + 1 // adding 1 to gb
+    document.querySelector('#gb-qty')
+    gb.textContent = gb-qty
 // HINT: You can delete this console.log after you no longer need it!
 console.log('Gingerbread + button was clicked!')
 
